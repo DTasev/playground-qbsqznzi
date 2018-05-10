@@ -1,8 +1,9 @@
-# { autofold
+#// { autofold
 import ctypes
 import struct
 import time
 import math
+#// }
 
 from pycca.asm import mkfunction, mov, ret, eax
 
@@ -11,7 +12,6 @@ print("""
    Example 1: Return a value from call
 ------------------------------------------------------
 """)
-# }
 
 # To return a value from a function, just put it in eax or rax:
 fn = mkfunction([
