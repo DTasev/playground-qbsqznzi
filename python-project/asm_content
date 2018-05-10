@@ -1,0 +1,10 @@
+    mov  eax, 0x1
+    jmp  start
+end:
+    ret
+    mov  eax, 0x1
+    mov  eax, 0x1
+start:
+    mov  eax, 0xdeadbeef
+    jmp  end
+    mov  eax, 0x1

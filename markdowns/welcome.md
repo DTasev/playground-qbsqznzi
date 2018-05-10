@@ -7,7 +7,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/python-template), pl
 
 # Hands-on Demo
 
-@[Luke, how many stars are there in these galaxies?]({"stubs": ["string_asm.py"], "command": "python3 string_asm.py"})
+@[Luke, how many stars are there in these galaxies?]({"stubs": ["asm_content"], "command": "python3 string_asm.py"})
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "python3 universe.py"})
 
