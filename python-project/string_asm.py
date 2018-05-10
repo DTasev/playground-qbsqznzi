@@ -31,7 +31,7 @@ fn = mkfunction("""
 fn.restype = ctypes.c_uint32
 
 
-with open('asm_content', 'rb') as f:
+with open('asm_content', 'r') as f:
     asm_lines = "".join(f.readlines())
 fn2 = mkfunction(asm_lines)
 fn2.restype = ctypes.c_uint32
