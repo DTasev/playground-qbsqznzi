@@ -13,8 +13,10 @@ print("""
 
 # To return a value from a function, just put it in eax or rax:
 fn = mkfunction([
+    # // { autofold
     mov(eax, 0xdeadbeef),
     ret()
+    # // }
 ])
 
 # Tell ctypes how to interpret the return value
