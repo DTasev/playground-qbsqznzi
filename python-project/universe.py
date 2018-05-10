@@ -1,3 +1,4 @@
+# // { autofold
 import ctypes
 import struct
 import time
@@ -13,10 +14,10 @@ print("""
 
 # To return a value from a function, just put it in eax or rax:
 fn = mkfunction([
-    # // { autofold
+    # // }
     mov(eax, 0xdeadbeef),
     ret()
-    # // }
+    # { autofold
 ])
 
 # Tell ctypes how to interpret the return value
@@ -24,3 +25,4 @@ fn.restype = ctypes.c_uint32
 
 # Call! Hopefully we get 0xdeadbeef back.
 print("Return: 0x%x" % fn())
+# }
