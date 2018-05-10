@@ -5,7 +5,7 @@ plan:
 projects:
   python:
     root: /python-project
-    buildCommand: cd /project/target && pip install -r requirements.txt
+    buildCommand: pip install pycca
     runner:
       name: python
       version: '3'
