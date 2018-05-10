@@ -1,9 +1,9 @@
-#// { autofold
+# // { autofold
 import ctypes
 import struct
 import time
 import math
-#// }
+# // }
 
 from pycca.asm import mkfunction, mov, ret, eax
 
