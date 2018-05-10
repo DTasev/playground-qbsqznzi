@@ -5,7 +5,7 @@ plan:
 projects:
   python:
     root: /python-project
-    buildCommand: pip install pycca
+    buildCommand: pip install pycca && pip install numpy
     runner:
       name: python
       version: '3'
