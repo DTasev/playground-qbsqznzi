@@ -8,4 +8,4 @@ projects:
     runner:
       name: python
       version: '3'
-      buildCommand: cd /project/target && pip install -r requirements.txt
+      buildCommand: pip install pycca
